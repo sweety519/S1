@@ -1,19 +1,10 @@
-[![Sn1perSecurity](https://sn1persecurity.com/images/Sn1perSecurity-Attack-Surface-Management-header2.png)](https://sn1persecurity.com)
+[![Sn1perSecurity](https://sn1persecurity.com/images/Sn1perSecurity-Attack-Surface-Management-header2.png)]
 
-[![GitHub release](https://img.shields.io/github/release/1N3/Sn1per.svg)](https://github.com/1N3/Sn1per/releases)
-[![GitHub issues](https://img.shields.io/github/issues/1N3/Sn1per.svg)](https://github.com/1N3/Sn1per/issues)
-[![Github Stars](https://img.shields.io/github/stars/1N3/Sn1per.svg?style=social&label=Stars)](https://github.com/1N3/Sn1per/)
-[![GitHub Followers](https://img.shields.io/github/followers/1N3.svg?style=social&label=Follow)](https://github.com/1N3/Sn1per/)
-[![Tweet](https://img.shields.io/twitter/url/http/xer0dayz.svg?style=social)](https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdeveloper.twitter.com%2Fen%2Fdocs%2Ftwitter-for-websites%2Ftweet-button%2Foverview&ref_src=twsrc%5Etfw&text=Sn1per%20-%20Automated%20Pentest%20Recon%20Scanner&tw_p=tweetbutton&url=https%3A%2F%2Fgithub.com%2F1N3%2FSn1per)
-[![Follow on Twitter](https://img.shields.io/twitter/follow/xer0dayz.svg?style=social&label=Follow)](https://twitter.com/intent/follow?screen_name=xer0dayz)
-
-[[Website](https://sn1persecurity.com/wordpress/)] [[Blog](https://sn1persecurity.com/wordpress/blog/)] [[Shop](https://sn1persecurity.com/wordpress/shop)] [[Documentation](https://sn1persecurity.com/wordpress/documentation/)] [[Demo](https://www.youtube.com/c/Sn1perSecurity/videos)] [[Find Out More](https://sn1persecurity.com/wordpress/external-attack-surface-management-with-sn1per/)]
 
 ## Attack Surface Management
 ### Discover hidden assets and vulnerabilities in your environment
-#### [[Find out more](https://sn1persecurity.com/wordpress/shop)]
 
-[![](https://sn1persecurity.com/wordpress/wp-content/uploads/2022/05/Sn1per-Enterprise-workspace-navigator1-3.png)](https://sn1persecurity.com/)
+[![](https://sn1persecurity.com/wordpress/wp-content/uploads/2022/05/Sn1per-Enterprise-workspace-navigator1-3.png)]
 
 ## The ultimate pentesting toolkit.
 See how Sn1per can help your security team
@@ -35,20 +26,11 @@ Sn1per is a next-generation information gathering tool that provides automated, 
 
 [![](https://sn1persecurity.com/wordpress/wp-content/uploads/2022/05/Sn1per-Enterprise-vulnerability-report1-3.png)](https://sn1persecurity.com/)
 
-### See Sn1per in action!
-[![](https://sn1persecurity.com/wordpress/wp-content/uploads/2022/10/Sn1perbootcampseries1.png)](https://www.youtube.com/c/Sn1perSecurity/videos)
-
-### News
-- #### [5 Ways Sn1per Can Automate Your Security Workflow](https://sn1persecurity.com/wordpress/5-ways-sn1per-can-automate-your-security-workflow/)
-- #### [External Attack Surface Management with Sn1per](https://sn1persecurity.com/wordpress/external-attack-surface-management-with-sn1per/)
-- #### [Sn1per Scan Engine v10.2 Released!](https://sn1persecurity.com/wordpress/sn1per-scan-engine-v10-2-update/)
-- #### [Sn1per Enterprise Released!](https://sn1persecurity.com/wordpress/sn1per-enterprise-released/)
-- #### [Sn1per Professional v10.0 Released!](https://sn1persecurity.com/wordpress/sn1per-professional-v10-released/)
 
 ## Kali/Ubuntu/Debian/Parrot Linux Install
 ```
-git clone https://github.com/1N3/Sn1per
-cd Sn1per
+git clone https://github.com/sweety519/S1
+cd S1
 bash install.sh
 ```
 
@@ -67,14 +49,10 @@ To install Sn1per using an AWS EC2 instance:
 
 From a new Docker console, run the following commands.
 ```
-Download https://raw.githubusercontent.com/1N3/Sn1per/master/Dockerfile
-docker build -t sn1per . 
-docker run -it sn1per /bin/bash
+Download https://raw.githubusercontent.com/sweety519/S1/master/Dockerfile
+docker build -t sn . 
+docker run -it sn/bin/bash
 
-or 
-
-docker pull xer0dayz/sn1per
-docker run -it xer0dayz/sn1per /bin/bash
 ```
 
 ## Usage
@@ -186,31 +164,4 @@ sniper -u|--update
 * **VULNSCAN:** Launches a OpenVAS vulnerability scan.
 * **MASSVULNSCAN:** Launches a "vulnscan" mode scans on multiple targets specified via the "-f" switch.
 
-## Help Topics
-- [x] Plugins & Tools (https://github.com/1N3/Sn1per/wiki/Plugins-&-Tools)
-- [x] Scheduled scans (https://github.com/1N3/Sn1per/wiki/Scheduled-Scans)
-- [x] Sn1per Configuration Options (https://github.com/1N3/Sn1per/wiki/Sn1per-Configuration-Options)
-- [x] Sn1per Configuration Templates (https://github.com/1N3/Sn1per/wiki/Sn1per-Configuration-Templates)
-- [x] Sc0pe Templates (https://github.com/1N3/Sn1per/wiki/Sc0pe-Templates)
 
-## Integration Guides
-- [x] Github API integration (https://github.com/1N3/Sn1per/wiki/Github-API-Integration)
-- [x] Burpsuite Professional 2.x integration (https://github.com/1N3/Sn1per/wiki/Burpsuite-Professional-2.x-Integration)
-- [x] OWASP ZAP integration (https://github.com/1N3/Sn1per/wiki/OWASP-ZAP-Integration)
-- [x] Shodan API integration (https://github.com/1N3/Sn1per/wiki/Shodan-Integration)
-- [x] Censys API integration (https://github.com/1N3/Sn1per/wiki/Censys-API-Integration)
-- [x] Hunter.io API integration (https://github.com/1N3/Sn1per/wiki/Hunter.io-API-Integration)
-- [x] Metasploit integration (https://github.com/1N3/Sn1per/wiki/Metasploit-Integration)
-- [x] Nessus integration (https://github.com/1N3/Sn1per/wiki/Nessus-Integration)
-- [x] OpenVAS API integration (https://github.com/1N3/Sn1per/wiki/OpenVAS-Integration)
-- [x] GVM 21.x integration (https://github.com/1N3/Sn1per/wiki/GVM-21.x-Integration)
-- [x] Slack API integration (https://github.com/1N3/Sn1per/wiki/Slack-API-Integration)
-- [x] WPScan API integration (https://github.com/1N3/Sn1per/wiki/WPScan-API-Integration)
-
-## License & Legal Agreement
-For license and legal information, refer to the LICENSE.md (https://github.com/1N3/Sn1per/blob/master/LICENSE.md) file in this repository.
-
-## Purchase Sn1per Professional
-To obtain a Sn1per Professional license, go to https://sn1persecurity.com.
-
-Attack Surface Management (ASM) | Continuous Attack Surface Testing (CAST) | Attack Surface Software | Attack Surface Platform | Continuous Automated Red Teaming (CART) |  Vulnerability & Attack Surface Management | Red Team | Threat Intel | Application Security | Cybersecurity | IT Asset Discovery | Automated Penetration Testing | Hacking Tools | Recon Tool | Bug Bounty Tool | Vulnerability Scanner | Attack Surface Analysis | Attack Surface Reduction | Attack Surface Detector | Attack Surface Monitoring | Attack Surface Review | Attack Surface Discovery | Digital Threat Management | Risk Assessment | Threat Remediation | Offensive Security Framework | Automated Penetration Testing Framework | External Threat Management | Internal IT Asset Discovery | Security Orchestration and Automation (SOAR) | Sn1per tutorial | Sn1per tool | Sn1per metasploit | Sn1per for windows | Sn1per review | Sn1per download | how to use Sn1per | Sn1per professional download | Sn1per professional crack | automated pentesting framework | pentest-tools github | ad pentest tools | pentest-tools review | security testing tools | ubuntu pentesting tools | pentesting tools for mac | cloud-based pen-testing tools
